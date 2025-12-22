@@ -169,3 +169,4 @@ The `practice_question/` directory is prepared for interactive exercises. Check 
 **Happy Learning! 🐍✨**
 
 *Start with [Python Basics](./theory/01-python-basics.md) and work your way through the theory modules for the best learning experience.*
+
