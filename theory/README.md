@@ -18,6 +18,12 @@ This guide is designed for sequential learning, building from Python basics to a
 | [06-Modules-Packages](./06-modules-packages.md) | Modules & Packages | Organizing code with modules and packages |
 | [07-Context-Management](./07-context-management.md) | Context & Request Data | Managing request context in Flask |
 | [08-Templates](./08-templates.md) | Jinja2 Templates | Dynamic HTML generation with templates |
+| [11-Virtual-Environment](./11virtualenviroment.md) | Virtual Environments | Environment management |
+| [12-VSCode-Flask-Setup](./12howtorunflaskinvscode.md) | VSCode Configuration | IDE setup for Flask development |
+| [13-Virtual-Environment-Creation](./13create_virtual_enviroment.md) | Environment Setup | Virtual environment creation guide |
+| [14-Code-Workflows](./14Working_of_code) | Development Practices | Code organization and workflows |
+| [15-Advanced-Workflows](./15Working_of_code_part2) | Production Patterns | Advanced development workflows |
+| [16-App-Updates](./16update_app.py_.md) | Maintenance Practices | Application update procedures |
 
 ## 🎯 Learning Objectives
 
