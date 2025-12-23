@@ -1,74 +1,51 @@
-# Document Improvement Plan
+# Django Mini Project Plan: Student Information Display
 
-## Issues Identified
+## Task Overview
+Create a simple Django webpage that displays student information (Name, Roll Number, Branch, Semester) with data written inside the view (not from database).
 
-### 1. Main README.md Issues
-- **File Path References**: Setup instructions point to `code/app.py` but actual file is `code/flask_app/app.py`
-- **Incomplete Theory Section**: Missing several theory modules in the learning path
-- **Missing Structure Overview**: Doesn't reflect actual file organization
+## Analysis of Current Structure
+- Django project exists at: `/workspaces/Python_Framework/code/practice_question/django/djangominiproject/`
+- App `hello` is created but not registered in settings
+- Views.py is empty (only basic import)
+- No URL routing configured for the app
+- No templates created yet
 
-### 2. Theory Directory Issues
-- **Duplicate Content**: 
-  - `06-modules-packages.md` vs `8module&packages.md` (comprehensive vs simplified)
-  - `07-context-management.md` vs `9context.md` (comprehensive vs simplified) 
-  - `08-templates.md` vs `10template.md` (comprehensive vs simplified)
-- **File Naming Inconsistency**: Mixed numbering schemes
-- **Missing Content**: Files 11-16 exist but lack proper theory content
+## Implementation Plan
 
-### 3. Code Structure Issues
-- **Path Mismatch**: Documentation refers to wrong file paths
-- **Template Reference**: Code uses `render_template("index.html")` but README suggests simple text response
+### Step 1: Register the App ✅ COMPLETED
+- Edit `djangominiproject/settings.py` to add 'hello' to INSTALLED_APPS
 
-### 4. Content Quality Issues
-- **Inconsistent Depth**: Some files are very basic while others are comprehensive
-- **Redundant Information**: Duplicate content across files
-- **Poor Organization**: Files scattered without clear progression
+### Step 2: Create View Function ✅ COMPLETED
+- Edit `hello/views.py` to create a view function with hardcoded student data
+- Include student_name, roll_number, branch, semester fields
 
-## Edit Plan
+### Step 3: Create HTML Template ✅ COMPLETED
+- Create `hello/templates/hello/student_info.html`
+- Design clean HTML layout to display student information
+- Include proper styling for better presentation
 
-### Phase 1: Fix Main Documentation
-1. **Update README.md**:
-   - Fix all file path references (`code/app.py` → `code/flask_app/app.py`)
-   - Complete theory section with all actual files
-   - Update project structure overview
-   - Fix learning path progression
+### Step 4: Configure URL Routing ✅ COMPLETED
+- Create `hello/urls.py` for app-specific routing
+- Update main `djangominiproject/urls.py` to include app URLs
 
-### Phase 2: Consolidate Theory Files
-1. **Remove Simplified Duplicates**:
-   - Delete `8module&packages.md` (keep comprehensive `06-modules-packages.md`)
-   - Delete `9context.md` (keep comprehensive `07-context-management.md`) 
-   - Delete `10template.md` (keep comprehensive `08-templates.md`)
+### Step 5: Test and Run ✅ COMPLETED
+- Navigate to project directory
+- Run development server
+- Test the webpage functionality
+- Verify all student information displays correctly
 
-2. **Standardize Remaining Theory Files**:
-   - Ensure all files follow consistent format
-   - Complete missing content in files 11-16
-   - Update navigation links
+## ✅ PROJECT COMPLETED SUCCESSFULLY!
+All steps have been implemented and tested. The Django mini project is running and displaying student information correctly.
 
-### Phase 3: Fix Code References
-1. **Update Code Examples**:
-   - Ensure Flask app matches documentation examples
-   - Fix any inconsistencies between theory and practice
+## Expected Files to Modify/Create
+1. `djangominiproject/settings.py` - Register app
+2. `hello/views.py` - Create view with student data
+3. `hello/templates/hello/student_info.html` - HTML template
+4. `hello/urls.py` - URL routing (new file)
+5. `djangominiproject/urls.py` - Include app URLs
 
-### Phase 4: Final Polish
-1. **Update Theory README.md**:
-   - Remove references to deleted files
-   - Update learning path
-   - Fix navigation links
-
-## Files to Edit
-
-### Primary Edits
-- `README.md` - Fix paths and complete structure
-- `theory/README.md` - Update references
-- Delete: `8module&packages.md`, `9context.md`, `10template.md`
-
-### Secondary Updates  
-- Theory files 11-16 - Complete content if needed
-- Any cross-references between files
-
-## Expected Outcomes
-- Consistent documentation throughout
-- No duplicate or conflicting information
-- Proper file paths and references
-- Clean, organized theory progression
-- Matching code examples and documentation
+## Student Data to Display
+- Student Name: [To be defined]
+- Roll Number: [To be defined]  
+- Branch: [To be defined]
+- Semester: [To be defined]
