@@ -408,6 +408,6 @@ Virtual environments are essential for professional Python development:
 
 With virtual environments mastered, you're ready to move on to **VSCode Setup** for optimal Flask development!
 
-*Next: [VSCode Flask Setup](./12howtorunflaskinvscode.md)*
+*Next: [VSCode Flask Setup](./12-vscode-flask-setup.md)*
 
 *Previous: [Templates](./08-templates.md)*

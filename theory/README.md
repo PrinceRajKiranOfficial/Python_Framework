@@ -61,9 +61,6 @@ Explore Django's batteries-included approach to rapid web application developmen
 | [14 - App Creation](./Django/14Step3:_Create_App.md) | App Development | Creating Django applications | 🟢 Beginner |
 | [15 - App Registration](./Django/15Explanation:App.md) | App Integration | Registering and configuring Django apps | 🟡 Intermediate |
 | [16 - URL Configuration](./Django/16Step4:_Register_App.md) | Routing | URL routing and configuration patterns | 🟡 Intermediate |
-| [17 - Advanced Routing](./Django/17.md) | URL Patterns | Advanced URL patterns and reverse resolution | 🟠 Advanced |
-| [18 - Model-View Communication](./Django/18.md) | Data Flow | How models, views, and templates communicate | 🟠 Advanced |
-| [19 - Production Considerations](./Django/19.md) | Deployment | Preparing Django applications for production | 🔴 Expert |
 
 ## 🎯 Learning Objectives
 

@@ -844,6 +844,6 @@ Virtual environment creation is essential for professional Python development:
 
 With virtual environment creation mastered, you're ready to explore **Code Workflows** for effective Flask development!
 
-*Next: [Code Workflows](./14Working_of_code)*
+*Next: [Code Workflows](./14-code-workflows)*
 
-*Previous: [VSCode Flask Setup](./12howtorunflaskinvscode.md)*
+*Previous: [VSCode Flask Setup](./12-vscode-flask-setup.md)*

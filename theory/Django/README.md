@@ -40,9 +40,6 @@ This Django theory guide is designed to provide deep understanding of Django's a
 | [14 - App Creation](./14Step3:_Create_App.md) | App Development | Creating Django applications | 🟢 Beginner |
 | [15 - App Registration](./15Explanation:App.md) | App Integration | Registering and configuring Django apps | 🟡 Intermediate |
 | [16 - URL Configuration](./16Step4:_Register_App.md) | Routing | URL routing and configuration | 🟡 Intermediate |
-| [17 - Advanced Routing](./17.md) | URL Patterns | Advanced URL patterns and reverse resolution | 🟠 Advanced |
-| [18 - Model-View Communication](./18.md) | Data Flow | How models, views, and templates communicate | 🟠 Advanced |
-| [19 - Production Considerations](./19.md) | Deployment | Preparing Django applications for production | 🔴 Expert |
 
 ## 🏗️ Architecture Pattern
 

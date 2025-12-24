@@ -794,6 +794,6 @@ VSCode provides an excellent environment for Flask development:
 
 With VSCode properly configured, you're ready for **Virtual Environment Creation** to manage your Flask project dependencies!
 
-*Next: [Virtual Environment Creation](./13create_virtual_enviroment.md)*
+*Next: [Virtual Environment Creation](./13-virtual-environment-creation.md)*
 
-*Previous: [Virtual Environments](./11virtualenviroment.md)*
+*Previous: [Virtual Environments](./11-virtual-environment.md)*

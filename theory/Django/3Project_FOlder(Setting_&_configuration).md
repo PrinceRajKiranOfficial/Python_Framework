@@ -669,7 +669,7 @@ By the end of this module, you should understand:
 1. **Application Logic**: Learn about Django apps in [Application Logic](./4AppFolder(Application_Logic).md)
 2. **Templates**: Understand template system in [Templates](./5Templates.md)
 3. **URL Configuration**: Master URL routing in [URL Configuration](./16Step4:_Register_App.md)
-4. **Security**: Explore production security in [Production Considerations](./19.md)
+4. **Security**: Explore production security best practices and deployment considerations
 
 ## Quick Reference
 

@@ -1232,6 +1232,6 @@ Effective code workflows for Flask development include:
 
 With solid code workflows established, you're ready for **Advanced Workflows** to take your Flask development to the next level!
 
-*Next: [Advanced Workflows](./15Working_of_code_part2)*
+*Next: [Advanced Workflows](./15-advanced-workflows)*
 
-*Previous: [Virtual Environment Creation](./13create_virtual_enviroment.md)*
+*Previous: [Virtual Environment Creation](./13-virtual-environment-creation.md)*
