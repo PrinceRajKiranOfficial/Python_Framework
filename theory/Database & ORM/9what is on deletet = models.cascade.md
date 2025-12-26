@@ -28,6 +28,10 @@ Problem Without Migration
 migrate
 •Applies changes to database
 •Creates/updates tables
+
+
+
+
 11. What is Django ORM Querying?
 Simple Meaning
 Querying means asking questions to the database
